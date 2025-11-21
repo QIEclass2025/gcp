@@ -15,9 +15,9 @@
 6) '공컴프 보드게임 수정' 파일에 소리 파일도 같이 넣어 게임이 진행될 때 소리가 나도록 함.
 ## 4. 실행 방법
 이 프로젝트는 `uv` 패키지 매니저를 사용하여 실행 환경을 설정함. 아래 명령어를 순서대로 입력하면 실행할 수 있음.
-'''bash
+```
 git clone https://github.com/QIEclass2025/gcp.git
 uv sync
 python penguin_seesaw.py
-'''
+```
 
