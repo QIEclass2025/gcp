@@ -53,7 +53,7 @@ pygame.mixer.init()
 script_dir = os.path.dirname(os.path.abspath(__file__))
 wind_sound = load_sound(os.path.join(script_dir, "432583__inchadney__the-wind.mp3"))
 penguin_cry_sound = load_sound(os.path.join(script_dir, "705839__breviceps__penguin-squeak (1).wav"))
-penguin_land_sound = load_sound("os.path.join(script_dir, "705839__breviceps__penguin-squeak (1).wav"))
+penguin_land_sound = load_sound(os.path.join(script_dir, "705839__breviceps__penguin-squeak (1).wav"))
 
 if wind_sound:
     wind_sound.set_volume(0.3)
