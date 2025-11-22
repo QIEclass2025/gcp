@@ -1,0 +1,10 @@
+# 파이썬 기본
+__pycache__/
+*.py[cod]
+
+# 가상환경 (uv가 만드는 폴더)
+.venv/
+
+# 운영체제 잡동사니
+.DS_Store
+Thumbs.db
