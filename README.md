@@ -16,8 +16,12 @@
 ## 4. 실행 방법
 이 프로젝트는 `uv` 패키지 매니저를 사용하여 실행 환경을 설정함. 아래 명령어를 순서대로 입력하면 실행할 수 있음.
 ```
-git clone https://github.com/QIEclass2025/gcp.git
-uv sync
-python penguin_seesaw.py
+1. uv가 없을 경우 uv 설치 (Windows 기준)
+   powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
+2. 게임 다운로드 및 실행
+   git clone https://github.com/QIEclass2025/gcp.git
+   cd gcp
+   uv sync
+   uv run penguin_seesaw.py
 ```
 
